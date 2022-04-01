@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./midimg.jpeg);
+    background-size: cover;
+}
+
+
+.main-outer header{
+    height: 60px;
+    background-color:whitesmoke;
+    display:flex;
+    position: relative;
+    border-bottom: 5px;
+    border-style:hidden;
+    opacity:60%;
+   
+}
+
+.todo{
+    height: 60px;
+    width: 90px;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    opacity:none;
+    
+}
+
+.plus{
+    position: absolute;
+    margin-left:1200px;
+    height: 60px;
+    width:60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.plus button{
+    height: 40px;
+    width:40px;
+    border-radius: 70px;
+    font-size:xx-large;
+    background-color: chartreuse;
+}
+
+main{
+    height:536px ;
+    display: flex; 
+    position: relative;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.ticketForm
+{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.ticketForm .bookticket{
+    
+    border-color:orange;
+    border-width: 2px;
+    border-style:inset;
+    height: 350px;
+    width: 250px;
+    background-color:bisque;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 550px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: none;
+    opacity: 90%;
+    
+    
+}
+
+
+.bookticket .form-heading{
+
+    height: 30px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size:20px;
+    position: relative;
+}
+
+.bookticket .form-heading .formclose{
+    
+margin-left: 220px; 
+height: 21px;
+width: 30px;
+position: absolute;
+}
+
+.bookticket input{
+   
+    height: 30px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 35px;    
+    padding: 10px;
+    border-radius: 5px;
+} 
+.bookticket textarea{
+   
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 200px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.bookticket button{
+    width: 180px;
+    height: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.parent{
+    display: flex;
+    height: 535px;
+    overflow-y:scroll;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    /* display: block !important;    */
+}
+ main .dilog{
+    border-style:double; 
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    height: 120px;
+    width: 180px;
+    margin-left: 35px;
+    margin-bottom: 150px;
+    background-color:antiquewhite;
+    position: relative;
+     opacity:80%;
+    } 
+.dilog .aboutTicket{
+    position: absolute;
+   
+}
+
+.dilogButtons{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dilogButtons .minimize{
+    height: 20px;
+    width: 20px;
+    font-weight:bolder;
+    background-color:skyblue;
+    border-radius: 50px;
+}
+
+.dilogButtons .close{   
+    border-radius: 50px; 
+    height: 20px;
+    width: 20px;
+    font-weight:bolder;
+    background-color: red;
+}
+
+
+.dilog-Name{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin:10px;
+
+    font-weight: bolder;
+}
+.TicketName{
+    height: 30px;
+    width: 155px;
+    margin: 10px;
+    background-color: chartreuse;
+    border-style: dotted;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+}
+
+.TicketAddress{
+    margin-top: 120px;
+    height: 150px;
+    width: 180px;
+    background-color: antiquewhite;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style:double;     
+    position: absolute;
+    margin-bottom: 30px;
+} 
+
+.TicketAddress textarea{
+    margin: 10px;
+    padding: 10px;
+    height:120px ;
+    width: 155px;
+    font-size:medium;
+}
+
+
+footer {
+    height: 60px;
+    background-color:aqua;
+    font-weight: bolder;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 15px;
+    border-color: cornflowerblue;
+    border-width: 5px;
+    border-style:hidden;
+    border-top: 5px;
+    background-color: whitesmoke;
+    opacity: 50%;   
+}
