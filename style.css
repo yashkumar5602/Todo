@@ -151,29 +151,33 @@ position: absolute;
     position: relative;
     /* display: block !important;    */
 }
- main .dilog{
-    border-style:double; 
+.dilog{
     margin-top: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     display: block;
-    height: 120px;
+    height: 270px;
     width: 180px;
     margin-left: 35px;
-    margin-bottom: 150px;
-    background-color:antiquewhite;
+    /* margin-bottom: 150px; */
+    background-color:transparent;
     position: relative;
-     opacity:80%;
-    } 
+    opacity:80%;
+} 
 .dilog .aboutTicket{
-    position: absolute;
+    background-color:antiquewhite;
+    border-style:double; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* position: absolute; */
+    /* background-color: blue; */
+    width: 180px;
+    /* margin-left: 10px; */
    
 }
 
 .dilogButtons{
     height: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     
 }
 .dilogButtons .minimize{
@@ -215,14 +219,14 @@ position: absolute;
 }
 
 .TicketAddress{
-    margin-top: 120px;
+    /* margin-top: 120px; */
     height: 150px;
-    width: 180px;
+    width: 100%;
     background-color: antiquewhite;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-style:double;     
-    position: absolute;
+    /* position: absolute; */
     margin-bottom: 30px;
 } 
 
