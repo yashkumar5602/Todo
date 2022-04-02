@@ -23,6 +23,7 @@ html,body{
    
 }
 
+
 .todo{
     height: 60px;
     width: 90px;
@@ -34,6 +35,20 @@ html,body{
     margin-left: 100px;
     opacity:none;
     
+}
+
+.adtcket{
+    font-weight:bold;
+    font-size:large;
+    border-radius: 20px;
+    height: 60px;
+    width: 80px;
+    /* background-color:darkkhaki; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:1250px;
 }
 
 .plus{
